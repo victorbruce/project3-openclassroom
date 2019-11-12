@@ -189,7 +189,7 @@ a.btn-register:hover {
 }
 
 .registration-details li {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 /* Contact us page */
@@ -341,9 +341,30 @@ hr {
     padding: 2.5em 0;
   }  
 
+  /* Social media */
+  .social-icons {
+    text-align: center;
+  }
+
+  .social-icons a {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .social-icons i.fab {
+    font-size: 30px;
+    transition: 0.5s;
+    color: #555;
+  }
+  
+  .social-icons a:hover i.fab {
+    transform: translateY(-10px);
+    color: $primaryColor;
+  }
+
   /* Footer Section */
   #footer {
-    padding-top: 0;
+    padding-top: 2em;
     text-align: center;
   }
 }

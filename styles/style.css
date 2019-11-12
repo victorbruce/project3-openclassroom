@@ -202,7 +202,7 @@ a.btn-register:hover {
 }
 
 .registration-details li {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 /* Contact us page */
@@ -340,9 +340,28 @@ hr {
   #contact-us {
     padding: 2.5em 0;
   }
+  /* Social media */
+  .social-icons {
+    text-align: center;
+  }
+  .social-icons a {
+    width: 40px;
+    margin-right: 10px;
+  }
+  .social-icons i.fab {
+    font-size: 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #555;
+  }
+  .social-icons a:hover i.fab {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    color: #ffd36f;
+  }
   /* Footer Section */
   #footer {
-    padding-top: 0;
+    padding-top: 2em;
     text-align: center;
   }
 }
