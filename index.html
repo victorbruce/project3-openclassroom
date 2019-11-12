@@ -48,10 +48,10 @@
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="index.html">News</a>
+                  <a class="nav-link" href="news.html">News</a>
                 </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact us</a>
+                <a class="nav-link" href="contact.html">Contact us</a>
               </li> 
             </ul>
             <a class="btn btn-register" href="register.html">Register</a>
@@ -70,7 +70,7 @@
             <h1>Join us at our<br> outdoor film festival events near you...</h1>
             <a href="register.html" class="btn btn-primary">Free Registration</a>
           </div>
-          <div class="col-xs-12 col-md-6 header-image text-center">
+          <div class="col-xs-12 col-md-6 header-image text-center hide-mobile">
             <img
               src="images/header-logo.svg"
               class="img-fluid"
@@ -144,7 +144,7 @@
       <div class="container">
         <h2 class="title">News</h2>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 news">
               <div class="media">
                   <img src="images/avengers.jpg" class="mr-3" alt="Sample Image">
                   <div class="media-body">
@@ -155,7 +155,7 @@
                   </div>
               </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 news">
               <div class="media">
                   <img src="images/getout.jpg" class="mr-3" alt="Sample Image">
                   <div class="media-body">
@@ -168,7 +168,6 @@
           </div>
         </div>
         <div class="more-news text-center">
-
           <a href="#" class="btn btn-primary mt-5">Find out more news</a>
         </div>
       </div>
@@ -194,13 +193,13 @@
     <!-- Footer -->
     <section id="footer">
         <div class="container">
-          <div class="row">
-            <div class="col-md-3 footer-box">
+          <div class="row hide-mobile">
+            <div class="col-md-4 footer-box">
               <img src="./images//logo-white.svg" class="footer-logo" alt="logo" />
               <p class="mt-4">Our mission is to develop ground-breaking outdoor cinema products that entertain the masses and bring communities together.</p>
               
             </div>
-            <div class="col-md-4 offset-1 footer-box">
+            <div class="col-md-4 footer-box">
               <p><b>CONTACT US</b></p>
               <p><i class="fas fa-map-marker-alt"></i> Boston</p>
               <p><i class="fas fa-phone"></i> +233 093 2332 23</p>
@@ -208,7 +207,7 @@
             </div>
             <div class="col-md-4 footer-box">
               <p><b>SUBSCRIBE NEWSLETTER</b></p>
-              <input type="email" class="form-control" placeholder="Your Eamil" />
+              <input type="email" class="form-control" placeholder="Your Email" />
               <button type="button" class="btn btn-primary">Subscribe</button>
             </div>
           </div>
