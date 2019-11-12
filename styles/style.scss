@@ -64,14 +64,14 @@ a.btn-register:hover {
   border: 1px solid $buttonColor;
   background: $buttonColor;
   color: #ffffff;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .header-title a:hover {
   background: $buttonColor;
   border: none;
   box-shadow: none !important;
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 /* Banner */
@@ -192,6 +192,11 @@ a.btn-register:hover {
   padding-bottom: 20px;
 }
 
+/* Contact us page */
+#contact-us {
+  padding: 5em 0;
+}
+
 /* footer */
 #footer {
   background: #3f3658;
@@ -247,6 +252,98 @@ hr {
 
 .copyright {
   margin-bottom: 0;
-  padding-bottom: 20px;
-  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  h4.title {
+    font-size: 22px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  hr {
+    margin: 0;
+    display: none;
+  }
+
+  /* Header section */
+  #header {
+    padding: 0em;
+  }
+
+   /* Banner section */
+  .banner {
+    background-image: url("../images/banner-mobile.svg");
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+   /* Showing section */
+  #showing {
+    padding: 3em 0;
+  }
+
+  .film {
+    margin-bottom: 50px;
+  }
+
+   /* News section */
+  .news {
+    margin-bottom: 50px;
+  }
+
+  .more-news a {
+    margin-top: 0 !important;
+  }
+
+  .announcement {
+    border-left: 8px solid $primaryColor;
+  }
+
+  /* About Page */
+  #about-us {
+    padding: 3em 0px 1.5em 0px;
+  }
+
+  #area-of-focus {
+    padding: 1.5em 0px 3em 0px;
+  }
+
+  /* Registration Page */
+  #registration {
+    padding: 2.5em 0;
+  }
+
+  #registration p.lead {
+    font-size: 18px;
+  }
+
+  .form {
+    margin-top: 30px;
+  }
+
+  /* Contact us page */
+  #contact-us {
+    padding: 2.5em 0;
+  }  
+
+  /* Footer Section */
+  #footer {
+    padding-top: 0;
+    text-align: center;
+  }
 }
